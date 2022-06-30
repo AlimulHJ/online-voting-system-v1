@@ -1,0 +1,28 @@
+body{
+	margin:0;
+	background:#ffffff;
+}
+
+.part1{
+	height: 60px;
+}
+
+.part2{
+	height: 570px;
+	background: #AEB6BF;
+}
+
+
+.form_field_name{
+	color: green;
+	margin-left: 50px;
+}
+
+input[type=submit]{
+	border: 1px solid green; color: green; 
+	height:20px;
+	margin-left: 50px; margin-top: 10px;
+}
+input[type=password]{
+	margin-top: 7px;
+}

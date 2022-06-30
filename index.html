@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+	<head>
+		<meta charset="UTF-8">
+		<title>Main Page</title>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.png" />
+	</head>
+	<body>
+		<div class= part1>
+			<h2 style="text-align: center" >Welcome to online Voting site</h2>
+		</div>
+		
+		<div class="part2">
+			<br>
+			<p style="margin-left:50px"><b>Please log in with your Nid no. & Password to cast your vote.</b></p>
+			
+			<form action="phpfiles/login.php" method="POST">
+				<label for="link1"><span class="form_field_name">Nid No :</span></label><input type="text" name="nid" id="link1" style="margin-left: 10px"/> <br>
+				<label for="link2"><span class="form_field_name">Password:</span></label><input type="password" name="pass" id="link2" style=""/> <br>
+				<input type="submit" value="Log In" style="height:22px; width:80px"/>
+		</div>
+		
+		<div class="part3">
+			<b><a style="margin-left:50px" href="adminlogin.html" title="If you are the Admin">Login as Admin</a></b>
+		</div>
+	</body>
+</html>
